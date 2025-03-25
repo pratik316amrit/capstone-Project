@@ -35,8 +35,7 @@ This project is an AI-powered advertisement system that dynamically collects use
 
 2. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/ai-ad-system.git
-   cd ai-ad-system
+   git clone https://github.com/pratik316amrit/capstone-Project
    ```
 3. Install backend dependencies:
    ```sh
@@ -50,15 +49,8 @@ This project is an AI-powered advertisement system that dynamically collects use
    ```
 5. Run the Flask backend:
    ```sh
-   python app.py
+   python main.py
    ```
-6. Navigate to the frontend folder and start the server:
-   ```sh
-   cd frontend
-   npm install
-   npm start
-   ```
-7. Open `http://localhost:3000` in your browser to see ads dynamically displayed.
 
 ## Usage
 - Users interact with the system, and their data is stored in Azure Blob Storage.
@@ -71,8 +63,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## License
 This project is licensed under the MIT License.
-
-## Contact
-For any inquiries, feel free to reach out:
-- **Email:** your-email@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
