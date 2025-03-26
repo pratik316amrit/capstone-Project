@@ -1,4 +1,4 @@
-# AZURE AI-Powered Dynamic Ad System
+# AI-Powered Personalized Ad Generator
 
 ## Overview
 This project is an AI-powered advertisement system that dynamically collects user data, stores it in Azure Blob Storage, and retrieves the data to generate targeted ads using Azure's LLMs and DALL·E. The system then displays ads at intervals using Flask and JavaScript.
