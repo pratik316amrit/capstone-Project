@@ -17,7 +17,8 @@ This project is an AI-powered advertisement system that dynamically collects use
 - **Database:** Azure Blob Storage
 - **Hosting:** Azure App Services / Any Cloud Provider
 - **Extension:** Chrome/Firefox Extension for data collection
-
+## Project Video Presentation 
+ - **Link:** https://youtu.be/_uQgXkDFDvY?si=SI5I7iPVzWE9QaI9
 ## Installation
 ### Prerequisites
 - Python 3.x
@@ -37,17 +38,13 @@ This project is an AI-powered advertisement system that dynamically collects use
    ```sh
    git clone https://github.com/pratik316amrit/capstone-Project
    ```
-3. Install backend dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. Set up Azure Blob Storage and OpenAI API keys in `.env`:
+3. Set up Azure Blob Storage and OpenAI API keys in `.env`:
    ```env
    AZURE_STORAGE_ACCOUNT_NAME=your_account_name
    AZURE_STORAGE_ACCOUNT_KEY=your_storage_key
    AZURE_OPENAI_API_KEY=your_openai_api_key
    ```
-5. Run the Flask backend:
+4. Run the Flask backend:
    ```sh
    python main.py
    ```
